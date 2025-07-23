@@ -1,6 +1,6 @@
 # Tail-F Log Viewer
 
-A real-time log monitoring solution similar to the UNIX `tail -f` command, but with a modern web interface. This implementation streams log updates in real-time without loading entire files into memory.
+A Node.js implementation of a real-time log monitoring solution with a web interface. Monitor log files in real-time without loading entire files into memory.
 
 ## Features
 

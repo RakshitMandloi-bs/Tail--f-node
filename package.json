@@ -4,7 +4,7 @@
   "description": "A log watching solution similar to tail -f command, with real-time web interface",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js & node log-simulator.js",
     "dev": "node server.js",
     "test": "mocha test/*.test.js",
     "test:watch": "mocha test/*.test.js --watch",
